@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\NetWin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v22\\values-large-v22.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Shivangi\\.gradle\\caches\\transforms-3\\e187076408bc5a05afda4987d1a87499\\transformed\\jetified-payu-custom-browser-7.8.0\\res\\values-large-v22\\values-large-v22.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,148",
+                        "endLines": "2,5",
+                        "endColumns": "92,12",
+                        "endOffsets": "143,310"
+                    }
+                }
+            ]
+        }
+    ]
+}

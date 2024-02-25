@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\NetWin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v27\\values-v27.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Shivangi\\.gradle\\caches\\transforms-3\\f240817fcc2a6127f7a479c6302466cd\\transformed\\jetified-upisdk-1.5.2\\res\\values-v27\\values-v27.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "612"
+                    }
+                }
+            ]
+        }
+    ]
+}

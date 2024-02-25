@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "509032665714",
+    "project_id": "netwin-2b2be",
+    "storage_bucket": "netwin-2b2be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509032665714:android:55a2f48f4c9ad81057a8eb",
+        "android_client_info": {
+          "package_name": "com.di.NetWin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEZOp2UjMuRDxuhia059Sz-wFNfDy_vzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
