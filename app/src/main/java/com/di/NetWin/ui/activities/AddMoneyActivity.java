@@ -1204,7 +1204,7 @@ public class AddMoneyActivity extends AppCompatActivity implements Instamojo.Ins
                 resources.getString(R.string.pay_for_) + resources.getString(R.string.app_name) + " " + resources.getString(R.string._wallet), PayPalPayment.PAYMENT_INTENT_SALE);
         Intent intent = new Intent(AddMoneyActivity.this, PaymentActivity.class);
         config = new PayPalConfiguration().environment(PayPalConfiguration.ENVIRONMENT_NO_NETWORK)
-                .clientId("AfoRg4Eq00MXwZ0_GcH9s5iufPrRxQS526kA-0i5wmNSYOBC0oTAujD1uWghRpmziV8JV02eEe3wsp0s");
+                .clientId("AWp7IJoksJWMmI0BD-NB9b8Ids_zw0AJDqw6ZelmpROT28vCVUQ4iEm247fTpuifGAbCsABpKNoXVxTW");
         Intent i2 = new Intent(AddMoneyActivity.this, PayPalService.class);
         i2.putExtra(PayPalService.EXTRA_PAYPAL_CONFIGURATION, config);
         startService(i2);
@@ -1212,6 +1212,9 @@ public class AddMoneyActivity extends AppCompatActivity implements Instamojo.Ins
         intent.putExtra(PaymentActivity.EXTRA_PAYMENT, payment);
         startActivityForResult(intent, PAYPAL_REQUEST_CODE);
     }
+
+
+
 
     public void performCharge(Charge charge) {
         //create a Charge object
