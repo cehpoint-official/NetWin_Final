@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".ui.activities.AddMoneyActivity">
 
+    <!-- Toolbar Layout -->
     <LinearLayout
+        android:id="@+id/toolbar_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
-        android:background="@color/newblue"
         android:orientation="horizontal"
-        android:paddingLeft="10dp"
+        android:background="@color/newblue"
+        android:paddingStart="10dp"
         android:paddingTop="5dp"
-        android:paddingRight="10dp"
-        android:paddingBottom="5dp">
-
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="0dp">
 
         <ImageView
             android:id="@+id/backfromaddmoney"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_gravity="center"
-            android:src="@mipmap/left_aero" />
-
+            android:src="@mipmap/left_aero"
+            android:layout_gravity="center"/>
 
         <TextView
+            android:id="@+id/addmoneytitleid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/addmoneytitleid"
             android:layout_gravity="center"
-            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:text="@string/add_money"
@@ -42,15 +41,21 @@
 
     </LinearLayout>
 
+    <!-- Scroll View -->
     <ScrollView
+        android:id="@+id/scroll_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_layout"
+        android:layout_above="@id/add_note">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginTop="0dp">
 
+            <!-- TextInputLayout for add money -->
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/parentaddmoney"
                 android:layout_width="match_parent"
@@ -68,10 +73,10 @@
                     android:drawableLeft="@drawable/resize_coin"
                     android:drawablePadding="5dp"
                     android:inputType="number"
-                   android:digits="1234567890"/>
+                    android:digits="1234567890"/>
             </com.google.android.material.textfield.TextInputLayout>
 
-
+            <!-- RadioGroup for add money options -->
             <RadioGroup
                 android:id="@+id/addmoney_option"
                 android:layout_width="match_parent"
@@ -81,6 +86,7 @@
                 android:layout_marginRight="40dp"
                 android:orientation="vertical"/>
 
+            <!-- Paystack Layout -->
             <LinearLayout
                 android:id="@+id/paystackll"
                 android:layout_width="match_parent"
@@ -152,10 +158,9 @@
                     </com.google.android.material.textfield.TextInputLayout>
 
                 </LinearLayout>
-
-
             </LinearLayout>
 
+            <!-- Add Note TextView -->
             <TextView
                 android:id="@+id/add_note"
                 android:layout_width="match_parent"
@@ -165,6 +170,7 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
                 android:textColor="@color/newgreen" />
 
+            <!-- Add Money Button -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -179,7 +185,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:background="@color/newgreen"
+                    android:background="@color/blue"
                     android:gravity="center"
                     android:paddingTop="5dp"
                     android:text="@string/ADD_MONEY"
@@ -187,7 +193,7 @@
                     android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
 
-
+            <!-- Paystack Test Note TextView -->
             <TextView
                 android:id="@+id/paystacktestnote"
                 android:layout_width="match_parent"
@@ -200,10 +206,8 @@
                 android:textColor="@color/black"
                 android:visibility="gone" />
 
-
-
         </LinearLayout>
 
     </ScrollView>
 
-</LinearLayout>
+</RelativeLayout>

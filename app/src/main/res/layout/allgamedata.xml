@@ -45,20 +45,18 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
                         android:layout_margin="5dp"
-                        app:cardBackgroundColor="#A4000000"
+                        app:cardBackgroundColor="#76D7C4"
                         app:cardCornerRadius="5dp">
 
                         <TextView
                             android:id="@+id/matchesavailable"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-
                             android:gravity="center"
                             android:paddingLeft="5dp"
                             android:paddingTop="2dp"
                             android:paddingRight="5dp"
                             android:paddingBottom="2dp"
-
                             android:text="@string/match_available_"
                             android:textAppearance="@style/TextAppearance.AppCompat.Small"
                             android:textColor="@color/white"
@@ -72,14 +70,13 @@
                     android:id="@+id/gamename"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#A4000000"
+                    android:background="#76D7C4"
                     android:gravity="center"
                     android:padding="8dp"
                     android:text="PUBG MOBILE"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textColor="@color/white"
                     android:textStyle="bold"
-
                     />
             </LinearLayout>
 

@@ -40,16 +40,16 @@
         "source": "D:\\NetWin\\app\\src\\main\\res\\layout\\activity_app_update.xml"
     },
     {
-        "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buy_product.png.flat",
-        "source": "D:\\NetWin\\app\\src\\main\\res\\drawable\\buy_product.png"
+        "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_introduction2.xml.flat",
+        "source": "D:\\NetWin\\app\\src\\main\\res\\layout\\introduction2.xml"
     },
     {
         "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_pin.png.flat",
         "source": "D:\\NetWin\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_pin.png"
     },
     {
-        "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_introduction2.xml.flat",
-        "source": "D:\\NetWin\\app\\src\\main\\res\\layout\\introduction2.xml"
+        "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buy_product.png.flat",
+        "source": "D:\\NetWin\\app\\src\\main\\res\\drawable\\buy_product.png"
     },
     {
         "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_customersupport.xml.flat",
@@ -60,12 +60,12 @@
         "source": "D:\\NetWin\\app\\src\\main\\res\\drawable\\cancel.xml"
     },
     {
-        "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_how_refer_earn_process.png.flat",
-        "source": "D:\\NetWin\\app\\src\\main\\res\\drawable\\how_refer_earn_process.png"
-    },
-    {
         "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_order_layout.xml.flat",
         "source": "D:\\NetWin\\app\\src\\main\\res\\layout\\order_layout.xml"
+    },
+    {
+        "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_how_refer_earn_process.png.flat",
+        "source": "D:\\NetWin\\app\\src\\main\\res\\drawable\\how_refer_earn_process.png"
     },
     {
         "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_selectmatchposition_data.xml.flat",
@@ -76,12 +76,12 @@
         "source": "D:\\NetWin\\app\\src\\main\\res\\layout\\live_challenges_data.xml"
     },
     {
-        "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_referrals.xml.flat",
-        "source": "D:\\NetWin\\app\\src\\main\\res\\layout\\activity_my_referrals.xml"
-    },
-    {
         "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_buddylist.xml.flat",
         "source": "D:\\NetWin\\app\\src\\main\\res\\drawable-v24\\ic_buddylist.xml"
+    },
+    {
+        "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_referrals.xml.flat",
+        "source": "D:\\NetWin\\app\\src\\main\\res\\layout\\activity_my_referrals.xml"
     },
     {
         "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_watch_and_earn.xml.flat",
@@ -128,24 +128,24 @@
         "source": "D:\\NetWin\\app\\src\\main\\res\\layout\\activity_announcement.xml"
     },
     {
-        "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_rewarded.xml.flat",
-        "source": "D:\\NetWin\\app\\src\\main\\res\\layout\\activity_my_rewarded.xml"
-    },
-    {
         "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_newlogo.jpeg.flat",
         "source": "D:\\NetWin\\app\\src\\main\\res\\drawable\\newlogo.jpeg"
+    },
+    {
+        "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_rewarded.xml.flat",
+        "source": "D:\\NetWin\\app\\src\\main\\res\\layout\\activity_my_rewarded.xml"
     },
     {
         "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_leftaero_background.xml.flat",
         "source": "D:\\NetWin\\app\\src\\main\\res\\drawable\\leftaero_background.xml"
     },
     {
-        "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_product_layout.xml.flat",
-        "source": "D:\\NetWin\\app\\src\\main\\res\\layout\\product_layout.xml"
-    },
-    {
         "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_share.xml.flat",
         "source": "D:\\NetWin\\app\\src\\main\\res\\drawable\\share.xml"
+    },
+    {
+        "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_product_layout.xml.flat",
+        "source": "D:\\NetWin\\app\\src\\main\\res\\layout\\product_layout.xml"
     },
     {
         "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_accepted_warning_dialog.xml.flat",
@@ -184,12 +184,12 @@
         "source": "D:\\NetWin\\app\\src\\main\\res\\drawable\\img1_1.png"
     },
     {
-        "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_resize_coin1620.xml.flat",
-        "source": "D:\\NetWin\\app\\src\\main\\res\\drawable\\resize_coin1620.xml"
-    },
-    {
         "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_customer_support.xml.flat",
         "source": "D:\\NetWin\\app\\src\\main\\res\\layout\\activity_customer_support.xml"
+    },
+    {
+        "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_resize_coin1620.xml.flat",
+        "source": "D:\\NetWin\\app\\src\\main\\res\\drawable\\resize_coin1620.xml"
     },
     {
         "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_upcoming_home.xml.flat",
@@ -200,12 +200,12 @@
         "source": "D:\\NetWin\\app\\src\\main\\res\\layout\\activity_success_join.xml"
     },
     {
-        "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_entryfeeicon.xml.flat",
-        "source": "D:\\NetWin\\app\\src\\main\\res\\drawable\\entryfeeicon.xml"
-    },
-    {
         "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_announcement_data.xml.flat",
         "source": "D:\\NetWin\\app\\src\\main\\res\\layout\\announcement_data.xml"
+    },
+    {
+        "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_entryfeeicon.xml.flat",
+        "source": "D:\\NetWin\\app\\src\\main\\res\\drawable\\entryfeeicon.xml"
     },
     {
         "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_result_lottery.xml.flat",
@@ -244,12 +244,12 @@
         "source": "D:\\NetWin\\app\\src\\main\\res\\drawable\\verifyselector.xml"
     },
     {
-        "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_leaderboard.xml.flat",
-        "source": "D:\\NetWin\\app\\src\\main\\res\\layout\\activity_leaderboard.xml"
-    },
-    {
         "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_showallprizelayout.xml.flat",
         "source": "D:\\NetWin\\app\\src\\main\\res\\layout\\showallprizelayout.xml"
+    },
+    {
+        "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_leaderboard.xml.flat",
+        "source": "D:\\NetWin\\app\\src\\main\\res\\layout\\activity_leaderboard.xml"
     },
     {
         "merged": "D:\\NetWin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",

@@ -440,7 +440,7 @@ public class AddMoneyActivity extends AppCompatActivity implements Instamojo.Ins
                             return;
                         }
                         PayUAddMoney();
-                    } else if (TextUtils.equals(payment, "PayPal")) {
+                    } else if (TextUtils.equals(payment, "Offline")) {
                         // if payment gateway select paypal
                         PaypalPayment(String.valueOf(amountFloat));
                     } else if (TextUtils.equals(payment, "PayTm")) {
@@ -532,73 +532,6 @@ public class AddMoneyActivity extends AppCompatActivity implements Instamojo.Ins
                         request.setShouldCache(false);
                         mQueue.add(request);
                         //add_money for paytm end
-                    } else if (TextUtils.equals(payment, "Offline")) {
-
-                        loadingDialog.show();
-                        //add_money for paytm start
-                        mQueue = Volley.newRequestQueue(getApplicationContext());
-                        mQueue.getCache().clear();
-
-                        String url = resources.getString(R.string.api) + "add_money";
-                        HashMap<String, String> params = new HashMap<String, String>();
-                        params.put("payment_name", payment);
-                        params.put("CUST_ID", custId);
-                        params.put("TXN_AMOUNT", amount);
-
-                        request = new JsonObjectRequest(url, new JSONObject(params),
-                                new Response.Listener<JSONObject>() {
-                                    @Override
-                                    public void onResponse(JSONObject response) {
-
-                                        Log.d("response", response.toString());
-                                        loadingDialog.dismiss();
-                                        try {
-                                            if (TextUtils.equals(response.getString("status"), "false")) {
-                                                Toast.makeText(AddMoneyActivity.this, response.getString("message"), Toast.LENGTH_SHORT).show();
-                                            } else {
-                                                Intent intent = new Intent(getApplicationContext(), OfflinePaymentActivity.class);
-                                                intent.putExtra("paymentdesc", paymentDescrption);
-                                                startActivity(intent);
-
-                                            }
-                                        } catch (JSONException e) {
-                                            e.printStackTrace();
-                                        }
-                                    }
-                                }, new Response.ErrorListener() {
-                            @Override
-                            public void onErrorResponse(VolleyError error) {
-                                Log.e("**VolleyError", "error" + error.getMessage());
-
-                                if (error instanceof TimeoutError) {
-
-                                    request.setShouldCache(false);
-                                    mQueue.add(request);
-                                }
-                            }
-                        }) {
-                            @Override
-                            protected Map<String, String> getParams() throws AuthFailureError {
-                                return super.getParams();
-                            }
-
-                            @Override
-                            public Map<String, String> getHeaders() throws AuthFailureError {
-                                Map<String, String> headers = new HashMap<>();
-                                CurrentUser user = userLocalStore.getLoggedInUser();
-                                String credentials = user.getUsername() + ":" + user.getPassword();
-                                String auth = "Basic "
-                                        + Base64.encodeToString(credentials.getBytes(), Base64.NO_WRAP);
-                                String token = "Bearer " + user.getToken();
-                                headers.put("Content-Type", "application/json");
-                                headers.put("Authorization", token);
-                                headers.put("x-localization", LocaleHelper.getPersist(context));
-                                return headers;
-                            }
-                        };
-                        request.setShouldCache(false);
-                        mQueue.add(request);
-
                     } else if (TextUtils.equals(payment, "PayStack")) {
 
                         if (TextUtils.equals(user.getEmail().trim(), "")) {
@@ -1262,10 +1195,19 @@ public class AddMoneyActivity extends AppCompatActivity implements Instamojo.Ins
             }
         });
     }
-
+//paypal payment gateway
     private void PaypalPayment(String amount) {
-        PayPalPayment payment = new PayPalPayment(new BigDecimal(String.valueOf(amount)), selectedCurrency, resources.getString(R.string.pay_for_) + resources.getString(R.string.app_name) + " " + resources.getString(R.string._wallet), PayPalPayment.PAYMENT_INTENT_SALE);
+        PayPalPayment payment = new
+                PayPalPayment(
+                        new BigDecimal(String.valueOf(amount)),
+                "USD",
+                resources.getString(R.string.pay_for_) + resources.getString(R.string.app_name) + " " + resources.getString(R.string._wallet), PayPalPayment.PAYMENT_INTENT_SALE);
         Intent intent = new Intent(AddMoneyActivity.this, PaymentActivity.class);
+        config = new PayPalConfiguration().environment(PayPalConfiguration.ENVIRONMENT_NO_NETWORK)
+                .clientId("AfoRg4Eq00MXwZ0_GcH9s5iufPrRxQS526kA-0i5wmNSYOBC0oTAujD1uWghRpmziV8JV02eEe3wsp0s");
+        Intent i2 = new Intent(AddMoneyActivity.this, PayPalService.class);
+        i2.putExtra(PayPalService.EXTRA_PAYPAL_CONFIGURATION, config);
+        startService(i2);
         intent.putExtra(PayPalService.EXTRA_PAYPAL_CONFIGURATION, config);
         intent.putExtra(PaymentActivity.EXTRA_PAYMENT, payment);
         startActivityForResult(intent, PAYPAL_REQUEST_CODE);
@@ -1462,7 +1404,7 @@ public class AddMoneyActivity extends AppCompatActivity implements Instamojo.Ins
                             }
                         };
                         paypal_response_request.setShouldCache(false);
-                        mQueue.add(payu_response_request);
+                        mQueue.add(paypal_response_request);
 
                     } catch (JSONException e) {
                         e.printStackTrace();
@@ -1917,8 +1859,10 @@ public class AddMoneyActivity extends AppCompatActivity implements Instamojo.Ins
 
         addmoneyOption.setOrientation(LinearLayout.VERTICAL);
         for (int i = 0; i < array.length(); i++) {
+
             JSONObject json = null;
             try {
+                Log.d("Shi", " " + array.getJSONObject(i).toString());
                 json = array.getJSONObject(i);
                 rdbtn = new RadioButton(this);
                 rdbtn.setId(i);
@@ -1948,19 +1892,19 @@ public class AddMoneyActivity extends AppCompatActivity implements Instamojo.Ins
                         paystacktestnote.setVisibility(View.GONE);
                     }
                 }
-
+                  //paypal credentials added client id
                 if (TextUtils.equals(json.getString("payment_name"), "PayPal")) {
                     if (TextUtils.equals(json.getString("payment_status"), "Sandbox")) {
-                        Log.d("paypall", "sandbox" + json.getString("client_id"));
+                        Log.d("paypall", "sandbox" + json.getString("client_Id"));
                         config = new PayPalConfiguration().environment(PayPalConfiguration.ENVIRONMENT_SANDBOX)
-                                .clientId(json.getString("client_id"));
+                                .clientId(json.getString("client_Id"));
                         Intent intent = new Intent(AddMoneyActivity.this, PayPalService.class);
                         intent.putExtra(PayPalService.EXTRA_PAYPAL_CONFIGURATION, config);
                         startService(intent);
                     } else {
                         // Log.d("paypall", "production");
                         config = new PayPalConfiguration().environment(PayPalConfiguration.ENVIRONMENT_PRODUCTION)
-                                .clientId(json.getString("client_id"));
+                                .clientId(json.getString("client_Id"));
                         Intent intent = new Intent(AddMoneyActivity.this, PayPalService.class);
                         intent.putExtra(PayPalService.EXTRA_PAYPAL_CONFIGURATION, config);
                         startService(intent);
@@ -1972,7 +1916,7 @@ public class AddMoneyActivity extends AppCompatActivity implements Instamojo.Ins
 
                     PaystackSdk.initialize(getApplicationContext());
                     PaystackSdk.setPublicKey(json.getString("public_key"));
-                    secretKey = json.getString("secret_key");
+                    secretKey = json.getString("");
 
                 } else if (TextUtils.equals(json.getString("payment_name"), "Instamojo")) {
                     if (TextUtils.equals(json.getString("payment_status"), "Test")) {

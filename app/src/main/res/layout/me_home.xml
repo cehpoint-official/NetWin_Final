@@ -58,13 +58,14 @@
                 android:layout_marginTop="125dp"
                 android:layout_marginRight="30dp"
                 android:elevation="10dp"
+                app:cardBackgroundColor="#F08080"
                 app:cardCornerRadius="5dp">
 
                 <LinearLayout
                     android:id="@+id/staticsresult"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@color/newgreen"
+                    android:background="#76D7C4"
                     android:orientation="horizontal"
                     android:paddingTop="10dp"
                     android:paddingBottom="10dp">

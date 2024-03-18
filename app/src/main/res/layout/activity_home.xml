@@ -31,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:background="@color/newblue"
+        android:background="#76D7C4"
         app:layout_anchor="@+id/appbar"
 
         app:layout_anchorGravity="center"
