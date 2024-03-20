@@ -5117,7 +5117,6 @@ string Password__
 string Per_Kill__
 string RESULTS
 string Reder_And_Earn
-string Rs
 string SIGNUP
 string Team__
 string Username
@@ -6029,6 +6028,7 @@ string upi
 string upi_app
 string upi_chooser_title
 string upi_id
+string usd_symbol
 string use_pin
 string username
 string username_required___

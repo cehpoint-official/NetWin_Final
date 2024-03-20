@@ -43,14 +43,15 @@ public class TansactionSuccessActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String tid = intent.getStringExtra("TID");
         String tamount = intent.getStringExtra("TAMOUNT");
-        String selectedcurrency=intent.getStringExtra("selected");
+//        String selectedcurrency=intent.getStringExtra("selected");
+        String selectedcurrency="$";
 
         successtid.setText(resources.getString(R.string.transaction_id)+" : #" + tid);
 
         successtamount.setText(resources.getString(R.string.transaction_amount_is)+" : " + selectedcurrency + tamount);
-        if (TextUtils.equals(selectedcurrency, "₹")) {
+        if (TextUtils.equals(selectedcurrency, "$")) {
             Typeface font = Typeface.DEFAULT_BOLD;
-            SpannableStringBuilder SS = new SpannableStringBuilder(resources.getString(R.string.Rs));
+            SpannableStringBuilder SS = new SpannableStringBuilder(resources.getString(R.string.usd_symbol));
             SS.setSpan(new CustomTypefaceSpan("", font), 0, 1, Spanned.SPAN_EXCLUSIVE_INCLUSIVE);
             successtamount.setText(TextUtils.concat(resources.getString(R.string.transaction_amount_is)+" : ", SS, tamount));
         }

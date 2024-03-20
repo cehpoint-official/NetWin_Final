@@ -138,8 +138,8 @@ public class AddMoneyActivity extends AppCompatActivity implements Instamojo.Ins
     TextView addNote;
     String point = "";
     long pointInt = 0;
-    String selectedCurrency = "";
-    String selectedCurrencySymbol = "";
+    String selectedCurrency = "$";
+    String selectedCurrencySymbol = "$";
 
     Context context;
     Resources resources;
@@ -290,37 +290,62 @@ public class AddMoneyActivity extends AppCompatActivity implements Instamojo.Ins
             }
 
             @Override
+//            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+//
+//                if (charSequence.length() > 0) {
+//                    addamountbtn.setEnabled(true);
+//                    addamountbtn.setText(resources.getString(R.string.ADD_MONEY));
+//                    addamountbtn.setBackgroundColor(getResources().getColor(R.color.newgreen));
+//                    if (TextUtils.equals(payment, "PayStack")) {
+//                        addNote.setText(resources.getString(R.string.you_will_pay_) + "$" + selectedCurrencySymbol + String.valueOf(Integer.parseInt(String.valueOf(charSequence)) / pointInt));
+//                        if (TextUtils.equals(selectedCurrencySymbol, "$")) {
+//                            Typeface font = Typeface.DEFAULT;
+//                            SpannableStringBuilder SS = new SpannableStringBuilder(resources.getString(R.string.usd_symbol));
+//                            SS.setSpan(new CustomTypefaceSpan("", font), 0, 1, Spanned.SPAN_EXCLUSIVE_INCLUSIVE);
+//                            addNote.setText(TextUtils.concat(resources.getString(R.string.you_will_pay_), "$", SS, String.valueOf(Integer.parseInt(String.valueOf(charSequence)) / pointInt)));
+//                        }
+//                    } else {
+//                        addNote.setText(resources.getString(R.string.you_will_pay_) + " " + selectedCurrencySymbol + String.format("%.2f", Double.parseDouble(String.valueOf(charSequence)) / (double) pointInt));
+//                        if (TextUtils.equals(selectedCurrencySymbol, "$")) {
+//                            Typeface font = Typeface.DEFAULT;
+//                            SpannableStringBuilder SS = new SpannableStringBuilder(resources.getString(R.string.usd_symbol));
+//                            SS.setSpan(new CustomTypefaceSpan("", font), 0, 1, Spanned.SPAN_EXCLUSIVE_INCLUSIVE);
+//                            addNote.setText(TextUtils.concat(resources.getString(R.string.you_will_pay_), "$", SS, String.format("%.2f", Double.parseDouble(String.valueOf(charSequence)) / (double) pointInt)));
+//
+//                        }
+//                    }
+//
+//                } else {
+//                    addNote.setText("");
+//                    addamountbtn.setEnabled(false);
+//                    addamountbtn.setBackgroundColor(getResources().getColor(R.color.newdisablegreen));
+//                }
+//            }
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-
                 if (charSequence.length() > 0) {
                     addamountbtn.setEnabled(true);
                     addamountbtn.setText(resources.getString(R.string.ADD_MONEY));
                     addamountbtn.setBackgroundColor(getResources().getColor(R.color.newgreen));
-                    if (TextUtils.equals(payment, "PayStack")) {
-                        addNote.setText(resources.getString(R.string.you_will_pay_) + " " + selectedCurrencySymbol + String.valueOf(Integer.parseInt(String.valueOf(charSequence)) / pointInt));
-                        if (TextUtils.equals(selectedCurrencySymbol, "₹")) {
-                            Typeface font = Typeface.DEFAULT;
-                            SpannableStringBuilder SS = new SpannableStringBuilder(resources.getString(R.string.Rs));
-                            SS.setSpan(new CustomTypefaceSpan("", font), 0, 1, Spanned.SPAN_EXCLUSIVE_INCLUSIVE);
-                            addNote.setText(TextUtils.concat(resources.getString(R.string.you_will_pay_), " ", SS, String.valueOf(Integer.parseInt(String.valueOf(charSequence)) / pointInt)));
-                        }
-                    } else {
-                        addNote.setText(resources.getString(R.string.you_will_pay_) + " " + selectedCurrencySymbol + String.format("%.2f", Double.parseDouble(String.valueOf(charSequence)) / (double) pointInt));
-                        if (TextUtils.equals(selectedCurrencySymbol, "₹")) {
-                            Typeface font = Typeface.DEFAULT;
-                            SpannableStringBuilder SS = new SpannableStringBuilder(resources.getString(R.string.Rs));
-                            SS.setSpan(new CustomTypefaceSpan("", font), 0, 1, Spanned.SPAN_EXCLUSIVE_INCLUSIVE);
-                            addNote.setText(TextUtils.concat(resources.getString(R.string.you_will_pay_), " ", SS, String.format("%.2f", Double.parseDouble(String.valueOf(charSequence)) / (double) pointInt)));
 
-                        }
-                    }
+                    String paymentMessage = resources.getString(R.string.you_will_pay_) + " $";
 
+                    // Get the amount entered by the user
+                    String amount = charSequence.toString();
+
+                    // Concatenate the amount to the payment message
+                    paymentMessage += amount;
+
+                    addNote.setText(paymentMessage);
                 } else {
                     addNote.setText("");
                     addamountbtn.setEnabled(false);
                     addamountbtn.setBackgroundColor(getResources().getColor(R.color.newdisablegreen));
                 }
             }
+
+
+
+
 
             @Override
             public void afterTextChanged(Editable editable) {
@@ -365,19 +390,19 @@ public class AddMoneyActivity extends AppCompatActivity implements Instamojo.Ins
 
                                     if (TextUtils.equals(payment, "PayStack")) {
                                         addNote.setText(resources.getString(R.string.you_will_pay_) + " " + selectedCurrencySymbol + String.valueOf(Integer.parseInt(addamountedit.getText().toString().trim()) / pointInt));
-                                        if (TextUtils.equals(selectedCurrencySymbol, "₹")) {
+                                        if (TextUtils.equals(selectedCurrencySymbol, "$")) {
                                             Typeface font = Typeface.DEFAULT;
-                                            SpannableStringBuilder SS = new SpannableStringBuilder(resources.getString(R.string.Rs));
+                                            SpannableStringBuilder SS = new SpannableStringBuilder(resources.getString(R.string.usd_symbol));
                                             SS.setSpan(new CustomTypefaceSpan("", font), 0, 1, Spanned.SPAN_EXCLUSIVE_INCLUSIVE);
-                                            addNote.setText(TextUtils.concat(resources.getString(R.string.you_will_pay_), " ", SS, String.valueOf(Integer.parseInt(addamountedit.getText().toString().trim()) / pointInt)));
+                                            addNote.setText(TextUtils.concat(resources.getString(R.string.you_will_pay_), "$", SS, String.valueOf(Integer.parseInt(addamountedit.getText().toString().trim()) / pointInt)));
                                         }
                                     } else {
-                                        addNote.setText(resources.getString(R.string.you_will_pay_) + " " + selectedCurrencySymbol + String.format("%.2f", Double.parseDouble(addamountedit.getText().toString().trim()) / (double) pointInt));
+                                        addNote.setText(resources.getString(R.string.you_will_pay_) + "$" + selectedCurrencySymbol + String.format("%.2f", Double.parseDouble(addamountedit.getText().toString().trim()) / (double) pointInt));
                                         if (TextUtils.equals(selectedCurrencySymbol, "₹")) {
                                             Typeface font = Typeface.DEFAULT;
-                                            SpannableStringBuilder SS = new SpannableStringBuilder(resources.getString(R.string.Rs));
+                                            SpannableStringBuilder SS = new SpannableStringBuilder(resources.getString(R.string.usd_symbol));
                                             SS.setSpan(new CustomTypefaceSpan("", font), 0, 1, Spanned.SPAN_EXCLUSIVE_INCLUSIVE);
-                                            addNote.setText(TextUtils.concat(resources.getString(R.string.you_will_pay_), " ", SS, String.format("%.2f", Double.parseDouble(addamountedit.getText().toString().trim()) / (double) pointInt)));
+                                            addNote.setText(TextUtils.concat(resources.getString(R.string.you_will_pay_), "$", SS, String.format("%.2f", Double.parseDouble(addamountedit.getText().toString().trim()) / (double) pointInt)));
                                         }
                                     }
 
