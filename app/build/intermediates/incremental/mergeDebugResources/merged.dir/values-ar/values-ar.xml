@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="zero">%d إشعار جديد</item>
+    <item quantity="one">إشعار جديد واحد (%d)</item>
+    <item quantity="two">إشعاران جديدان (%d)</item>
+    <item quantity="few">%d إشعارات جديدة</item>
+    <item quantity="many">%d إشعارًا جديدًا</item>
+    <item quantity="other">%d إشعار جديد</item>
+  </plurals>
+    <string name="ADD_MONEY">إضافة المال</string>
+    <string name="Amount">كمية</string>
+    <string name="Announcement">إعلان</string>
+    <string name="Anouncement">إعلان</string>
+    <string name="Email">بريد إلكتروني *</string>
+    <string name="Entry_Fee_">رسم الدخول : </string>
+    <string name="FREE">مجانا</string>
+    <string name="Id__">هوية شخصية : </string>
+    <string name="JOIN">انضم</string>
+    <string name="JOINED">انضم</string>
+    <string name="Join_now">نضم الان</string>
+    <string name="LOGIN">تسجيل الدخول</string>
+    <string name="MATCH_FULL">المباراة كاملة</string>
+    <string name="Map__">خريطة : </string>
+    <string name="Match_Schedule__">جدول المباراة : </string>
+    <string name="Match_Type__">نوع مباراة : </string>
+    <string name="Mode__">الوضع : </string>
+    <string name="NOT_JOINED">لم يتم الانضمام</string>
+    <string name="ONGOING">جاري التنفيذ</string>
+    <string name="PAID">دفع</string>
+    <string name="PER_KILL">لكل قتل</string>
+    <string name="PRIZE_POOL">مجموع جوائز</string>
+    <string name="Password">كلمه السر</string>
+    <string name="Password__">كلمه السر : </string>
+    <string name="Per_Kill__">لكل قتل : </string>
+    <string name="RESULTS">النتائج</string>
+    <string name="Reder_And_Earn">الرجوع وأمبير. يكسب</string>
+    <string formatted="false" name="Rs" translatable="true">\u20B9</string>
+    <string name="SIGNUP">اشتراك</string>
+    <string name="Team__">فريق : </string>
+    <string name="Username">اسم المستخدم</string>
+    <string name="Winning_Prize__">الجائزة الفائزة : </string>
+    <string name="Won">وون</string>
+    <string name="_name"> اسم</string>
+    <string name="_wallet"> محفظة جيب</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"التوجه إلى المنزل"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"خيارات أكثر"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"تم"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"تفعيل"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"حذف"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"فضاء"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"القائمة+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"طلب بحث"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"البحث"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"بحث صوتي"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="about_lottery">حول اليانصيب</string>
+    <string name="about_this_match">حول هذه المباراة</string>
+    <string name="about_us">معلومات عنا</string>
+    <string name="account">حساب</string>
+    <string name="add">يضيف</string>
+    <string name="add_info">أضف معلومات</string>
+    <string name="add_money">إضافة المال</string>
+    <string name="addchallge">New Contest</string>
+    <string name="additional">معلومة اضافية</string>
+    <string name="additional__">معلومة اضافية : </string>
+    <string name="address">عنوان</string>
+    <string name="address__">عنوان : </string>
+    <string name="admob_app_id">ca-app-pub-8534325609823184~6377822467</string>
+    <string name="admob_baner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_reward">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="already_a_user">بالفعل مستخدم؟</string>
+    <string name="already_joined">انضم بالفعل</string>
+    <string name="amount_bracket">كمية</string>
+    <string name="announcement">إعلان :</string>
+    <string name="api">https://netwin.app/api/</string>
+    <string name="app_name">NetWin</string>
+    <string name="app_not_found_in_download">التطبيق غير موجود في التنزيل</string>
+    <string name="app_tutorial">البرنامج التعليمي للتطبيق</string>
+    <string name="app_update">تحديث التطبيق</string>
+    <string name="arabic">عربى</string>
+    <string name="arabic_e">Arabic</string>
+    <string name="balance">توازن</string>
+    <string name="bottomsheet_action_expand_halfway">توسيع البطاقة السفلية</string>
+    <string name="buy_now">اشتري الآن</string>
+    <string name="cancel">يلغي</string>
+    <string name="change_language">تغيير اللغة</string>
+    <string name="character_counter_content_description">تمّ إدخال %1$d حرف من إجمالي %2$d.</string>
+    <string name="character_counter_overflowed_content_description">تجاوز عدد الأحرف المسموح به %1$d من %2$d.</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="clear_text_end_icon_content_description">محو النص</string>
+    <string name="code">شفرة</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">تفضل بزيارة &lt;b>facebook.com/device&lt;/b> وإدخال الرمز الموضح أعلاه.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">حدث خطأ غير متوقع أثناء تنزيل صورة.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">يتطلب تسجيل دخول WebView الحصول إلى إذن INTERNET</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">خطأ AndroidManifest</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">أعجبك</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">أعجبني</string>
+    <string gender="unknown" name="com_facebook_loading">جارٍ التحميل…</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">إلغاء</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">تسجيل الدخول</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">متابعة بحساب فيسبوك</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">تسجيل الدخول بحساب فيسبوك</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">تسجيل الخروج</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">تسجيل الخروج</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">تم تسجيل الدخول باسم: %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">تم تسجيل الدخول باستخدام حساب فيسبوك</string>
+    <string gender="unknown" name="com_facebook_send_button_text">إرسال</string>
+    <string gender="unknown" name="com_facebook_share_button_text">مشاركة</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">لربط حسابك، افتح تطبيق فيسبوك على جهازك المحمول وراجع الإشعارات.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- أو -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">لست أنت؟</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">متابعة باسم %1$s</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">تأكيد تسجيل الدخول</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">أنت المتحكم في الأمر - يمكنك اختيار المعلومات التي تود مشاركتها مع التطبيقات.</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">تفعيل</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">‏لن يعمل %1$s ما لم يتم تفعيل خدمات Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">‏تفعيل خدمات Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">تثبيت</string>
+    <string name="common_google_play_services_install_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي لا تتوفر على جهازك.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">‏الحصول على خدمات Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">‏مدى توفّر خدمات Google Play</string>
+    <string name="common_google_play_services_notification_ticker">‏خطأ في خدمات Google Play</string>
+    <string name="common_google_play_services_unknown_issue">‏لدى %1$s مشكلة في خدمات Google Play. يُرجى إعادة المحاولة.</string>
+    <string name="common_google_play_services_unsupported_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play التي لا يوفرها جهازك.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">تحديث</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">‏لن يتم تشغيل %1$s ما لم يتم تحديث خدمات Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">‏تحديث خدمات Google Play</string>
+    <string name="common_google_play_services_updating_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي يتم تحديثها حاليًا.</string>
+    <string name="common_google_play_services_wear_update_text">‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا.</string>
+    <string name="common_open_on_phone">فتح على الهاتف</string>
+    <string name="common_signin_button_text">تسجل الدخول</string>
+    <string name="common_signin_button_text_long">‏تسجيل الدخول عبر Google</string>
+    <string name="complete_tast">أكمل المهمة</string>
+    <string name="continue_with_facebook">تواصل مع الفيسبوك</string>
+    <string name="continue_with_google">تواصل مع جوجل</string>
+    <string name="copid_to_clipboard">نسخ إلى الحافظة</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"تم نسخ الرابط إلى الحافظة."</string>
+    <string name="country">دولة</string>
+    <string name="country__">دولة : </string>
+    <string name="create_new_account">انشاء حساب جديد</string>
+    <string name="credit">الإئتمان</string>
+    <string name="currently_app_server_is_under_maintanance">خادم التطبيق الحالي قيد الصيانة.</string>
+    <string name="customer_support">دعم العملاء</string>
+    <string name="date">تاريخ</string>
+    <string name="date__">تاريخ الطلب : </string>
+    <string name="date_of_birth">تاريخ الولادة</string>
+    <string name="debit">دين</string>
+    <string name="description">وصف</string>
+    <string name="dont_have_an_account">ليس لديك حساب؟</string>
+    <string name="download_completed">انتها التحميل</string>
+    <string name="downloading...">جارى التحميل...</string>
+    <string name="draw_on">ارسم على</string>
+    <string name="earn">يكسب</string>
+    <string name="earnings">أرباح</string>
+    <string name="edit_playername">تحرير اسم التشغيل</string>
+    <string name="edit_profile">تعديل الملف الشخصي</string>
+    <string name="email">بريد إلكتروني</string>
+    <string name="email__">بريد إلكتروني : </string>
+    <string name="email_address">عنوان البريد الإلكتروني</string>
+    <string name="email_mobile_no">البريد الإلكتروني / رقم الجوال</string>
+    <string name="email_required...">البريد الإلكتروني (مطلوب...</string>
+    <string name="english">English</string>
+    <string name="enter_minmum">أدخل الحد الأدنى </string>
+    <string name="enter_new_password">أدخل كلمة مرور جديدة</string>
+    <string name="enter_password">أدخل كلمة المرور</string>
+    <string name="enter_your_info">Enter your info</string>
+    <string name="entry_fee">رسم الدخول</string>
+    <string name="error">خطأ!</string>
+    <string name="error_icon_content_description">خطأ</string>
+    <string name="exit">مخرج</string>
+    <string name="exposed_dropdown_menu_content_description">عرض القائمة المنسدلة</string>
+    <string name="facebook_app_id">874043283359634</string>
+    <string name="failed">باءت بالفشل</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"نسخ الرابط"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"فتح في المتصفح"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"مشاركة الرابط"</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"متنوعة"</string>
+    <string name="fees">مصاريف</string>
+    <string name="female">أنثى</string>
+    <string name="first_name">الاسم الأول</string>
+    <string name="forgot_password__reset_now">هل نسيت كلمة السر؟ إعادة التعيين الآن</string>
+    <string name="full">ممتلىء</string>
+    <string name="full_name">الاسم بالكامل</string>
+    <string name="full_result">النتيجة الكاملة</string>
+    <string name="gender">جنس:</string>
+    <string name="google_pay_not_installed">Google Pay غير مثبت.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hindi">हिंदी</string>
+    <string name="hindi_e">Hindi</string>
+    <string name="home">منزل، بيت</string>
+    <string name="icon_content_description">رمز مربع الحوار</string>
+    <string name="instagram__">انستغرام : </string>
+    <string name="install_permission_denied">تم رفض إذن التثبيت</string>
+    <string name="intro1desc">انضم إلى مسابقة لعبتك المفضلة واربح أموالًا حقيقية</string>
+    <string name="intro2desc">محتوى حسب طريقة اللعب الخاصة بك مثل SOLO أو DUO أو SQUA</string>
+    <string name="intro3desc">ادعُ أصدقاءك للعب لعبتهم المفضلة واحصل على المكافآت</string>
+    <string name="invalid">غير صالح</string>
+    <string name="item_view_role_description">علامة تبويب</string>
+    <string name="join">انضم</string>
+    <string name="join_a_match">انضم إلى المباراة</string>
+    <string name="join_match">الانضمام إلى المباراة</string>
+    <string name="join_money">انضم إلى المال : </string>
+    <string name="join_note">ملاحظة - الرجاء إدخال اسم المستخدم / الاسم الخاص بك في اللعبة.</string>
+    <string name="join_now">نضم الان</string>
+    <string name="joined_member">عضو منضم</string>
+    <string name="joining_match">الانضمام إلى المباراة</string>
+    <string name="killed">قتل</string>
+    <string name="kills">يقتل</string>
+    <string name="last_name">الكنية</string>
+    <string name="later">لاحقا</string>
+    <string name="leaderboard">ليدربورد</string>
+    <string name="log_out_successfully">تم تسجيل الخروج بنجاح</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="login_successfully">تم تسجيل الدخول بنجاح</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="lottery">اليانصيب</string>
+    <string name="make_sure_you_have_entered_correct_information">تأكد من إدخال المعلومات الصحيحة</string>
+    <string name="male">ذكر</string>
+    <string name="match">تطابق</string>
+    <string name="match_available_">التطابقات المتاحة: </string>
+    <string name="match_entry_fee_per_person__">رسوم دخول المباراة لكل شخص : </string>
+    <string name="match_full">المباراة كاملة</string>
+    <string name="match_info">معلومات المباراة</string>
+    <string name="match_result">نتيجة المباراة</string>
+    <string name="matches">اعواد الكبريت</string>
+    <string name="matchprivaDesc_detail">تطابق التفاصيل الخاصة</string>
+    <string name="material_clock_toggle_content_description">يُرجى اختيار صباحًا أو مساءً.</string>
+    <string name="material_hour_selection">تحديد الساعة</string>
+    <string name="material_hour_suffix">الساعة %1$s</string>
+    <string name="material_minute_selection">تحديد الدقائق</string>
+    <string name="material_minute_suffix">%1$s دقيقة</string>
+    <string name="material_timepicker_am">صباحًا</string>
+    <string name="material_timepicker_clock_mode_description">يُرجى التبديل إلى وضع الساعة لإدخال الوقت.</string>
+    <string name="material_timepicker_hour">الساعة</string>
+    <string name="material_timepicker_minute">دقيقة</string>
+    <string name="material_timepicker_pm">مساءً</string>
+    <string name="material_timepicker_select_time">اختيار الوقت</string>
+    <string name="material_timepicker_text_input_mode_description">يُرجى التبديل إلى وضع إدخال النص لإدخال الوقت.</string>
+    <string name="me">أنا</string>
+    <string name="mobile">التليفون المحمول *</string>
+    <string name="mobile_number">رقم الهاتف المحمول</string>
+    <string name="mobile_number_required...">رقم الهاتف المحمول مطلوب ...</string>
+    <string name="mobile_number_successfully_verified">تم التحقق من رقم الهاتف المحمول بنجاح</string>
+    <string name="mtrl_badge_numberless_content_description">إشعار جديد</string>
+    <string name="mtrl_chip_close_icon_content_description">إزالة %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">يبلغ عدد الإشعارات الجديدة أكثر من %1$d.</string>
+    <string name="mtrl_picker_a11y_next_month">التغيير إلى الشهر التالي</string>
+    <string name="mtrl_picker_a11y_prev_month">التغيير إلى الشهر السابق</string>
+    <string name="mtrl_picker_announce_current_selection">الاختيار الحالي: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">يُرجى اختيار تاريخ.</string>
+    <string name="mtrl_picker_date_header_unselected">التاريخ المحدَّد</string>
+    <string name="mtrl_picker_day_of_week_column_header">عمود الأيام: %1$s</string>
+    <string name="mtrl_picker_invalid_format">التنسيق غير صالح</string>
+    <string name="mtrl_picker_invalid_format_example">مثال: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">استخدام: %1$s</string>
+    <string name="mtrl_picker_invalid_range">النطاق غير صالح</string>
+    <string name="mtrl_picker_navigate_to_year_description">التنقل إلى العام %1$s</string>
+    <string name="mtrl_picker_out_of_range">خارج النطاق: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">تاريخ البدء – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – تاريخ الانتهاء</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">يُرجى اختيار نطاق زمني.</string>
+    <string name="mtrl_picker_range_header_unselected">تاريخ البدء - تاريخ الانتهاء</string>
+    <string name="mtrl_picker_save">حفظ</string>
+    <string name="mtrl_picker_text_input_date_hint">التاريخ</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">تاريخ الانتهاء</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">تاريخ البدء</string>
+    <string name="mtrl_picker_text_input_day_abbr">ي</string>
+    <string name="mtrl_picker_text_input_month_abbr">ش</string>
+    <string name="mtrl_picker_text_input_year_abbr">س</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">التبديل إلى وضع \"الإدخال في التقويم\"</string>
+    <string name="mtrl_picker_toggle_to_day_selection">انقر للتبديل إلى اختيار يوم</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">التبديل إلى وضع \"إدخال النص\"</string>
+    <string name="mtrl_picker_toggle_to_year_selection">انقر للتبديل إلى اختيار عام</string>
+    <string name="my_matches">المباريات الخاصة بي</string>
+    <string name="my_order">طلبي</string>
+    <string name="my_profile">ملفي</string>
+    <string name="my_referrals">إحالاتي</string>
+    <string name="my_referrals_list">قائمة الإحالات الخاصة بي</string>
+    <string name="my_referrals_summary">ملخص الإحالات الخاصة بي</string>
+    <string name="my_reward">مكافآتي</string>
+    <string name="my_rewards_list">قائمة مكافآتي</string>
+    <string name="my_rewards_summary">ملخص مكافآتي</string>
+    <string name="my_statistics">إحصائياتي</string>
+    <string name="my_wallet">محفظتى</string>
+    <string name="mycontest">MY CONTEST</string>
+    <string name="name">اسم : </string>
+    <string name="new_password">كلمة السر الجديدة</string>
+    <string name="new_update_available">تحديث جديد متاح ...</string>
+    <string name="no_announcement_available">لا يوجد إعلان متاح</string>
+    <string name="no_completed_match_found">لم يتم العثور على تطابق كامل.</string>
+    <string name="no_game_found">لم يتم العثور على لعبة.</string>
+    <string name="no_internet_connection">لا يوجد اتصال بالإنترنت.</string>
+    <string name="no_live_match_found">لم يتم العثور على تطابق مباشر.</string>
+    <string name="no_lottery_result_found">لم يتم العثور على نتيجة يانصيب.</string>
+    <string name="no_member_joined_yet">لم ينضم أي عضو حتى الآن</string>
+    <string name="no_ongoing_lottery_found.">لم يتم العثور على يانصيب مستمر.</string>
+    <string name="no_referrals_found">لم يتم العثور على إحالات.</string>
+    <string name="no_rewards_yet">لا مكافآت حتى الآن.</string>
+    <string name="no_space_allowed">لا توجد مساحة مسموح بها</string>
+    <string name="no_upcoming_match_found">لم يتم العثور على مباراة قادمة.</string>
+    <string msgid="4014704848104544569" name="offline_notification_text">"انقر لفتح الإعلان"</string>
+    <string msgid="6989673690118446590" name="offline_notification_title">"عرض الإعلان الذي حفظته عند عدم الاتصال بالإنترنت"</string>
+    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"حسنًا"</string>
+    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"ستتلقّى إشعارًا يحتوي على الرابط عند إعادة الاتصال بالإنترنت."</string>
+    <string msgid="1070677888032715836" name="offline_opt_in_decline">"لا، شكرًا"</string>
+    <string msgid="5998527443747404848" name="offline_opt_in_message">"سنرسل إليك إشعارًا يحتوي على رابط إلى الموقع الإلكتروني للمعلِن."</string>
+    <string msgid="4928666061183236333" name="offline_opt_in_title">"فتح العنوان عند إعادة الاتصال بالإنترنت"</string>
+    <string name="ok">نعم</string>
+    <string name="old_password">كلمة سر قديمة</string>
+    <string name="ongoing">جاري التنفيذ</string>
+    <string name="ongoingludo">ONGOING</string>
+    <string name="order_placed_successfully">تم تقديم الطلب بنجاح.</string>
+    <string name="organised_on">نظمت في</string>
+    <string name="otp_note">أدخل رمز التحقق الذي أرسلناه لك للتو عبر الرسائل القصيرة / البريد الإلكتروني.</string>
+    <string name="otp_note_2">إذا لم تتلق رمزًا!</string>
+    <string name="otp_send_successfully">أرسل OTP بنجاح</string>
+    <string name="paid">مدفوع</string>
+    <string name="password">كلمه السر *</string>
+    <string name="password_not_match">كلمة السر ليست جيدة</string>
+    <string name="password_not_matched...">كلمة المرور غير متطابقة ...</string>
+    <string name="password_required...">كلمة المرور مطلوبة...</string>
+    <string name="password_toggle_content_description">عرض كلمة المرور</string>
+    <string name="pay_for_">دفع ل </string>
+    <string name="payment_cancelled">تم إلغاء الدفع</string>
+    <string name="payment_desc">وصف الدفع</string>
+    <string name="payment_method_not_available">طريقة الدفع غير متوفرة</string>
+    <string name="payment_transaction_failed">فشل معاملة الدفع </string>
+    <string name="payouts">المدفوعات</string>
+    <string name="paystack_note">ملاحظة: \ n للاختبار ، استخدم \ n رقم البطاقة: 4084084084084081 \ n CVV: 408 \ n تاريخ انتهاء الصلاحية وسنة انتهاء الصلاحية: أي وقت لاحق</string>
+    <string name="pending">قيد الانتظار</string>
+    <string name="per_kill">الجائزة الفائزة</string>
+    <string name="permission_granted">تم تأمين التصريح</string>
+    <string name="permission_needed">مطلوب إذن</string>
+    <string name="phone__">هاتف : </string>
+    <string name="play">لعب</string>
+    <string name="play_for">اللعب لصالح</string>
+    <string name="play_in_youtube">العب في يوتيوب</string>
+    <string name="play_now">العب الان</string>
+    <string name="played">لعب</string>
+    <string name="player_name">اسم اللاعب</string>
+    <string name="player_name_required">اسم اللاعب مطلوب</string>
+    <string name="please_enter_card_number">الرجاء إدخال رقم البطاقة</string>
+    <string name="please_enter_cvv">الرجاء إدخال CVV</string>
+    <string name="please_enter_email">الرجاء إدخال البريد الإلكتروني</string>
+    <string name="please_enter_expiry_month">الرجاء إدخال شهر انتهاء الصلاحية</string>
+    <string name="please_enter_expiry_year">الرجاء إدخال سنة انتهاء الصلاحية</string>
+    <string name="please_enter_mobile_number">الرجاء إدخال رقم الهاتف المحمول</string>
+    <string name="please_enter_player_name">الرجاء إدخال اسم اللاعب</string>
+    <string name="please_enter_unique_player_name">الرجاء إدخال اسم لاعب فريد</string>
+    <string name="please_enter_upi_id">الرجاء إدخال معرف UPI</string>
+    <string name="please_enter_valid_wallet_address">الرجاء إدخال عنوان محفظة صالح</string>
+    <string name="please_enter_wallet_address">الرجاء إدخال عنوان المحفظة</string>
+    <string name="please_enter_your_address">الرجاء إدخال عنوانك</string>
+    <string name="please_enter_your_name">يرجى إدخال اسمك</string>
+    <string name="please_select_any_position">الرجاء تحديد أي منصب</string>
+    <string name="please_select_country">الرجاء تحديد الدولة</string>
+    <string name="please_select_country_code">الرجاء تحديد رمز الدولة</string>
+    <string name="please_update_profile_with_email">يرجى تحديث الملف الشخصي مع البريد الإلكتروني.</string>
+    <string name="please_update_profile_with_email_and_mobile_number">يرجى تحديث الملف الشخصي مع البريد الإلكتروني ورقم الهاتف المحمول.</string>
+    <string name="please_update_profile_with_mobile_number">يرجى تحديث الملف الشخصي مع رقم الهاتف المحمول.</string>
+    <string name="please_verify_mobile_number">يرجى التحقق من رقم الهاتف المحمول</string>
+    <string name="please_wait">أرجو الإنتظار</string>
+    <string name="position">موضع</string>
+    <string name="press_again_to_exit">اضغط مرة أخرى للخروج</string>
+    <string name="price__">سعر : </string>
+    <string name="price_details">تفاصيل السعر</string>
+    <string name="product_details">تفاصيل المنتج</string>
+    <string name="promo_code">رمز ترويجي</string>
+    <string name="promo_code_copied_successfully">تم نسخ الرمز الترويجي بنجاح</string>
+    <string name="push_notification">دفع الإخطار</string>
+    <string name="qr_code">qr_code</string>
+    <string name="refer_more_to_earn_more">ارجع إلى المزيد لتكسب المزيد</string>
+    <string name="refer_now">راجع الآن</string>
+    <string name="referral_code">كود الإحالة</string>
+    <string name="referrals">الإحالات</string>
+    <string name="register">تسجيل</string>
+    <string name="registered">مسجل</string>
+    <string name="registration_successfully">التسجيل بنجاح</string>
+    <string name="resend">إعادة إرسال</string>
+    <string name="reset">إعادة ضبط</string>
+    <string name="reset_password">إعادة تعيين كلمة المرور</string>
+    <string name="result_on">النتيجة تشغيل</string>
+    <string name="results">النتائج</string>
+    <string name="resultsludo">RESULTS</string>
+    <string name="retype_new_pass">أعد كتابة كلمة السر الجديدة</string>
+    <string name="retype_new_password">أعد كتابة كلمة السر الجديدة</string>
+    <string name="retype_your_password...">أعد كتابة كلمة المرور الخاصة بك ...</string>
+    <string name="rewards">المكافآت</string>
+    <string name="room_detail">تفاصيل الغرفة</string>
+    <string name="room_id">معرف الغرفة</string>
+    <string name="room_id_copied_successfully">تم نسخ معرف الغرفة بنجاح</string>
+    <string name="room_password">كلمة المرور الغرفة</string>
+    <string name="room_password_copied_successfully">تم نسخ كلمة مرور الغرفة بنجاح</string>
+    <string msgid="368094699078615544" name="s1">"حفظ الصورة"</string>
+    <string msgid="4550830452390689489" name="s2">"هل تريد السماح للإعلان بتخزين الصورة في معرض الصور؟"</string>
+    <string msgid="2435407834265420668" name="s3">"قبول"</string>
+    <string msgid="9167523597401839819" name="s4">"رفض"</string>
+    <string msgid="1566682516266724847" name="s5">"إنشاء حدث في التقويم"</string>
+    <string msgid="5996672174517137271" name="s6">"هل تريد السماح للإعلان بإنشاء حدث في التقويم؟"</string>
+    <string msgid="7163549807207034258" name="s7">"إعلان تجريبي"</string>
+    <string name="save">يحفظ</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"البحث"</string>
+    <string name="select_a_game">اختر لعبة</string>
+    <string name="select_country">حدد الدولة</string>
+    <string name="select_match_position">حدد موقف المباراة</string>
+    <string name="selected_position">الوظيفة المختارة</string>
+    <string name="send_mail...">ارسل بريد...</string>
+    <string name="set">جلس</string>
+    <string name="share_app">شارك التطبيق</string>
+    <string name="share_using">شارك باستخدام</string>
+    <string name="shop_now">تسوق الآن</string>
+    <string name="show_case_1">انقر هنا لإظهار قائمة دورات اللعبة المحددة</string>
+    <string name="show_case_2">انقر هنا لإظهار محفظتك</string>
+    <string name="show_case_3">اضغط هنا للانضمام إلى هذه البطولة</string>
+    <string name="show_case_4">اضغط هنا لإضافة نقاط في المحفظة</string>
+    <string name="show_case_5">اضغط هنا لسحب النقاط من المحفظة</string>
+    <string name="spectate">متفرج</string>
+    <string name="spot_in_duo.">بقعة في Duo.</string>
+    <string name="spot_in_solo.">بقعة في سولو.</string>
+    <string name="spot_in_squad.">بقعة في فرقة.</string>
+    <string name="spot_in_squad5.">بقعة في Squad5.</string>
+    <string name="status">حالة</string>
+    <string name="status__">حالة : </string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="storage_permission_denied">تم رفض إذن التخزين</string>
+    <string name="street__">شارع : </string>
+    <string name="submit">إرسال</string>
+    <string name="success">نجاح!</string>
+    <string name="task_completed">تمت المهمة</string>
+    <string name="team">فريق</string>
+    <string name="team_">فريق </string>
+    <string name="terms_and_condition">شروط وأمبير. الظروف</string>
+    <string name="there_are_no_email_apps_installed">لا توجد تطبيقات بريد إلكتروني مثبتة.</string>
+    <string name="this_permission_is_needed_because_of_download_the_latest_version_of_">هذا الإذن مطلوب بسبب تنزيل أحدث إصدار من </string>
+    <string name="time__">زمن : </string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="top_players">كبار اللاعبين</string>
+    <string name="total">مجموع</string>
+    <string name="total_balance">إجمالي الرصيد</string>
+    <string name="total_payable_amount__">إجمالي المبلغ المستحق : </string>
+    <string name="total_referral">إجمالي الإحالة</string>
+    <string name="track_order">ترتيب المسار : </string>
+    <string name="transaction_amount_is">مبلغ الصفقة هو</string>
+    <string name="transaction_id">رقم المعاملة</string>
+    <string name="tron_desc">يرجى مسح رمز الاستجابة السريعة ضوئيًا أو نسخ عنوان العقد خلال مدة زمنية معينة وإضافة رمز مميز في هذه المحفظة بعد المتابعة التالية.</string>
+    <string name="unable_to_load_video">لا توجد مهمة فيديو متاحة لك</string>
+    <string name="upcoming">القادمة</string>
+    <string name="update_now">تحديث الان</string>
+    <string name="update_profile">تحديث الملف</string>
+    <string name="updating...">جارٍ التحديث ....</string>
+    <string name="upi_id">معرف UPI</string>
+    <string name="username">اسم المستخدم *</string>
+    <string name="username_required...">اسم المستخدم (مطلوب...</string>
+    <string name="verification">تحقق</string>
+    <string name="verified">تم التحقق</string>
+    <string name="verify">تحقق</string>
+    <string name="version">إصدار</string>
+    <string name="wallet_history">تاريخ المحفظة</string>
+    <string name="watch_match">يشاهد </string>
+    <string name="watch_more_to_earn_more">شاهد المزيد لتكسب المزيد</string>
+    <string name="watch_now">شاهد الآن</string>
+    <string name="we_will_sent_you_otp_in_">سنرسل لك OTP في </string>
+    <string name="whatsapp_not_found">WhatsApp غير موجود</string>
+    <string name="win_money">اربح المال : </string>
+    <string name="winner">الفائز</string>
+    <string name="winning">الفوز</string>
+    <string name="winning_prize">الجائزة الفائزة</string>
+    <string name="withdraw">ينسحب</string>
+    <string name="withdraw_method_not_available">طريقة السحب غير متوفرة</string>
+    <string name="withdraw_money">سحب الأموال</string>
+    <string name="withdraw_to">سحب إلى:</string>
+    <string name="withdraw_to_">سحب إلى </string>
+    <string name="withdraw_wallet_address">عنوان المحفظة</string>
+    <string name="won">وون</string>
+    <string name="won_by">فاز بها</string>
+    <string name="won_prize__">فاز بالجائزة : </string>
+    <string name="wrong_email_address...">عنوان بريد إلكتروني خاطئ...</string>
+    <string name="wrong_mobile_number...">رقم جوال خاطئ ...</string>
+    <string name="wrong_otp">OTP خاطئ.</string>
+    <string name="you_are_already_joined">لقد انضممت بالفعل</string>
+    <string name="you_are_already_registered">انت مسجل مسبقا.</string>
+    <string name="you_can_only_withdraw_win_money">يمكنك فقط سحب المال.</string>
+    <string name="you_can_select_only">يمكنك الاختيار فقط</string>
+    <string name="you_have_joined_successfully">لقد انضممت بنجاح.</string>
+    <string name="you_will_get_">سوف تحصل على </string>
+    <string name="you_will_pay_">سوف تدفع </string>
+    <string name="your_account_is_blocked_by_admin">تم حظر حسابك من قبل المسؤول</string>
+    <string name="your_current_balance__">رصيدك الحالي : </string>
+    <string name="your_referral_code">رمز الإحالة الخاص بك</string>
+    <string name="your_transaction_is_fail">معاملتك فاشلة.</string>
+    <string name="your_transaction_is_success">معاملتك هي النجاح.</string>
+</resources>
